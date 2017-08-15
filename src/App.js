@@ -14,9 +14,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <Movie title="The Fellowship of the Ring" hours="2" minutes="58"></Movie>
-        <Movie title="The Two Towers" hours="2" minutes="59"></Movie>
-        <Movie title="The Return of the King" hours="3" minutes="21"></Movie>
+        <Movie title="The Fellowship of the Ring" hours="2" minutes="58" year="2001"></Movie>
+        <Movie title="The Two Towers" hours="2" minutes="59" year="2002"></Movie>
+        <Movie title="The Return of the King" hours="3" minutes="21" year="2003"></Movie>
       </div>
     );
   }

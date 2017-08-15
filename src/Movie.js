@@ -5,7 +5,7 @@ class Movie extends Component {
     return (
       <div>
         <h1>The Lord of the Rings: {this.props.title}</h1>
-        <p>{this.props.hours}h {this.props.minutes}min</p>
+        <p>{this.props.hours}h {this.props.minutes}min; released {this.props.year}</p>
       </div>
     );
   }
